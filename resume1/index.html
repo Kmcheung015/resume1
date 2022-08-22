@@ -14,10 +14,10 @@
     </div>
     <nav id ="gnav">
         <ul class="container">
-          <li class="current"><a href="index.html">WORK</a></li>
+          <li><a href="#section-a">WORK</a></li>
           <li><a href="#section-b">ABOUT ME</a></li>
           <li><a href="#section-c">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#section-d">CONTACT</a></li>
         </ul>
       </nav>    
     <div class="img-bg">
@@ -166,7 +166,7 @@
       <div class="grid-container">
         <div class="grid-item">
           <div class="photo">
-            <img src="image/portfo-1.jpg" alt="">
+            <img src="image/blog1.jpg" alt="">
           </div>
           <div class="description2">
             <h4 class="content-title">What is Lorem Ipsum?</h4>
@@ -177,7 +177,7 @@
         </div>
         <div class="grid-item">
           <div class="photo">
-            <img src="image/portfo-1.jpg" alt="">
+            <img src="image/blog2.jpg" alt="">
           </div>
           <div class="description2">
             <h4 class="content-title">What is Lorem Ipsum?</h4>
@@ -188,7 +188,7 @@
         </div>
         <div class="grid-item">
           <div class="photo">
-            <img src="image/portfo-1.jpg" alt="">
+            <img src="image/blog3.jpg" alt="">
           </div>
           <div class="description2">
             <h4 class="content-title">What is Lorem Ipsum?</h4>
@@ -201,16 +201,29 @@
       </div><!--div blog-grid-container-->
       <a href="#" class="see_more_posts">SEE MORE POSTS</a>
     </section>
+
+    <section id="section-d">
+      <div id="contact-form" class="container">
+        <form action="#" id="contactForm" class="form">
+          <h4 class="contact">Contact</h4>
+            <input type="text" class="input-box" id="contacName" placeholder="Enter your name" pattern="[a-z A-Z]+" maxlength="30" required>
+            <br>
+            <input type="email" class="input-box" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <textarea class="input-box message-box" id="Message" name="Message" rows="2" cols="50" required></textarea><br>
+            <input type="button" value="Submit">
+          </form>
+    </section>
   </main>
   <footer>
-    <p>Copyright &copy;2021 KA MAN CHEUNG PAGE |</p>
+    <p>Copyright &copy;2022 KA MAN CHEUNG PAGE |</p>
     <nav id ="fnav">
       <ul class="container">
-        <li class="current"><a href="index.html">WORK</a></li>
-        <li><a href="aboutme.html">ABOUT ME</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li><a href="Hireme.html" class="btn">HIRE ME</a></li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#section-a">WORK</a></li>
+        <li><a href="#section-b">ABOUT ME</a></li>
+        <li><a href="#section-c">BLOG</a></li>
+        
       </ul>
     </nav>  
   </footer>       
